@@ -35,6 +35,8 @@ int main() {
     // }
     // cout << "\b\b }" << endl;
 
+    // delete[] arr;
+
 
     Student *s = new Student[2];
 
@@ -45,6 +47,7 @@ int main() {
         s[i].display();
     }
     
+    delete[] s;
 
     return 0;
 }
